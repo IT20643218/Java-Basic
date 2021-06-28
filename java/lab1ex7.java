@@ -20,3 +20,16 @@ public class lab1ex7{
 	}
 
 }
+
+/*
+import java.text.DecimalFormat;
+ 
+public class DecimalFormatMain {
+ 
+    public static void main(String[] args) {
+        double d=2343.5476;
+        DecimalFormat df = new DecimalFormat("###.##");
+        System.out.println("Rounded double (DecimalFormat) : " + df.format(d));
+    }
+ 
+}*/
