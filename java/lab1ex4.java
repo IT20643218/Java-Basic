@@ -6,7 +6,7 @@ public class lab1ex4{
 	System.out.print("Please Enter your Day Number :");
 	int days=a.nextInt();
 	
-	System.out.print("=======================\n");java
+	System.out.print("=======================\n");
 	String day;
 		System.out.println("Value of the day:"+days);
 
