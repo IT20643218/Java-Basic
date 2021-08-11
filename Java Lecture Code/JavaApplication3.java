@@ -7,6 +7,12 @@ public class JavaApplication3{
 	 
 	 System.out.println(emp1.getEmpname());
 	 System.out.println(emp2.getEmpname());
+	 
+	 emp1.setName("Kamal");
+	 
+	 System.out.println(emp1.getEmpname());
+	 
+	 
 	}
 
 }
