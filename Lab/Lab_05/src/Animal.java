@@ -1,20 +1,30 @@
 // Lab Sheet on Abstract Classes
 // Starter Code
 
-class Animal {
+abstract class Animal {
    private String name;
+   
+   public Animal() {
+		  System.out.println("Animal constructor called");
+	}
+   
    public Animal(String name) {
        this.name = name;
    }
-  public String speak() {
-      return "";
-  }
+   
+  abstract public String speak();
+  
   public void display() {
       System.out.println("My name is " + this.name + ".  " + this.speak() + ".");
   }
 }
 
 class Dog extends Animal {
+	
+	public Dog () {
+		  System.out.println("Dog constructor called");
+	   }
+	
    public Dog(String name) {
       super(name);
    }
@@ -24,6 +34,11 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
+	
+	public Cat() {
+		  System.out.println("Cat constructor called");
+  }
+	
   public Cat(String name) {
       super(name);
    }
@@ -35,6 +50,9 @@ class Cat extends Animal {
 class ToyCat extends Cat {
   String manufacturer;
   
+  public ToyCat() {
+	  System.out.println("ToyCat constructor called");
+   }
   
   public ToyCat(String name, String manufacturer) {
      super(name);

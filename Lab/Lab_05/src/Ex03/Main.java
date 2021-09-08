@@ -18,8 +18,8 @@ try {
 	maxSubjects = sc.nextInt();
 	
 // 2. Using a for loop input marks
-for (int i=0;i<=maxSubjects;i++) {
-	System.out.print("Marks :");
+for (int i=0;i<maxSubjects;i++) {
+	System.out.print("Marks :" +(i+1)+" ");
 	marks[i]=sc.nextInt();
 	
 	// 3. Calculate the avg marks

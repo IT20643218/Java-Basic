@@ -1,7 +1,7 @@
 class MainApplicaion {
   public static void main(String[] args) {
-     Animal animal1 = new Animal("test");
-     animal1.display();
+     //Animal animal1 = new Animal("test");
+     //animal1.display();						//Animal class is abstract class
      
      Cat mycat = new Cat("Micky");
      mycat.display();
@@ -11,6 +11,8 @@ class MainApplicaion {
      
      ToyCat mytoy = new ToyCat("kittie","Toysrus");
      mytoy.display();
+     
+     ToyCat toy2 = new ToyCat();
      
      // 1.  Make the Animal class an abstract class
      //     Make the speak method an abstract method
